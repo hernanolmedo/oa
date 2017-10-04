@@ -21,7 +21,7 @@
   <string role="key" value="_intendedEndUserRoleType"></string>
   <unicode value=""></unicode>
   <string role="key" value="_isChanged"></string>
-  <bool value="1"></bool>
+  <bool value="0"></bool>
   <string role="key" value="_lang"></string>
   <unicode value="es"></unicode>
   <string role="key" value="_learningResourceType"></string>
@@ -35,7 +35,7 @@
   <string role="key" value="_name"></string>
   <unicode value="oa"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="2"></int>
+  <int value="1"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="7"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -56,7 +56,7 @@
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
      <int value="2"></int>
      <string role="key" value="exportType"></string>
-     <string value="scorm"></string>
+     <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
      <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n"></string>
      <string role="key" value="parent"></string>
@@ -80,7 +80,7 @@
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="scorm"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Divisi%C3%B3n%20y%20Conquista"></string>
         <string role="key" value="parent"></string>
@@ -151,7 +151,7 @@ text through the text editing buttons associated with the field."></unicode>
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <none></none>
+                <reference key="5"></reference>
                </dictionary>
               </instance>
               <string role="key" value="edit"></string>
@@ -194,7 +194,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="scorm"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Divisi%C3%B3n%20y%20Conquista:Ejemplos"></string>
            <string role="key" value="parent"></string>
@@ -220,7 +220,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="scorm"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Divisi%C3%B3n%20y%20Conquista:Actividad"></string>
            <string role="key" value="parent"></string>
@@ -249,7 +249,7 @@ text through the text editing buttons associated with the field."></unicode>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
         <int value="2"></int>
         <string role="key" value="exportType"></string>
-        <string value="scorm"></string>
+        <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
         <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Programaci%C3%B3n%20Din%C3%A1mica"></string>
         <string role="key" value="parent"></string>
@@ -273,7 +273,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="scorm"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Programaci%C3%B3n%20Din%C3%A1mica:Ejemplos"></string>
            <string role="key" value="parent"></string>
@@ -299,7 +299,7 @@ text through the text editing buttons associated with the field."></unicode>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
            <int value="2"></int>
            <string role="key" value="exportType"></string>
-           <string value="scorm"></string>
+           <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:M%C3%A9todos%20de%20Descomposici%C3%B3n:Programaci%C3%B3n%20Din%C3%A1mica:Actividad"></string>
            <string role="key" value="parent"></string>
@@ -357,7 +357,7 @@ text through the text editing buttons associated with the field."></unicode>
     <string role="key" value="identifier"></string>
     <unicode value="b52d2c21-b7fe-4019-81e0-b56cfa040c6c"></unicode>
     <string role="key" value="language"></string>
-    <unicode value=""></unicode>
+    <unicode value="es"></unicode>
     <string role="key" value="publisher"></string>
     <unicode value=""></unicode>
     <string role="key" value="relation"></string>
@@ -396,7 +396,45 @@ text through the text editing buttons associated with the field."></unicode>
     <string role="key" value="classification"></string>
     <list></list>
     <string role="key" value="educational"></string>
-    <list></list>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
     <string role="key" value="general"></string>
     <instance class="exe.engine.lom.lomsubs.generalSub">
      <dictionary>
@@ -469,7 +507,16 @@ text through the text editing buttons associated with the field."></unicode>
       <string role="key" value="keyword"></string>
       <list></list>
       <string role="key" value="language"></string>
-      <list></list>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
@@ -488,7 +535,14 @@ text through the text editing buttons associated with the field."></unicode>
       <string role="key" value="identifier"></string>
       <list></list>
       <string role="key" value="language"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
       <string role="key" value="metadataSchema"></string>
       <list>
        <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
@@ -522,7 +576,45 @@ text through the text editing buttons associated with the field."></unicode>
     <string role="key" value="classification"></string>
     <list></list>
     <string role="key" value="educational"></string>
-    <list></list>
+    <list>
+     <instance class="exe.engine.lom.lomsubs.educationalSub">
+      <dictionary>
+       <string role="key" value="cognitiveProcess"></string>
+       <list></list>
+       <string role="key" value="context"></string>
+       <list></list>
+       <string role="key" value="description"></string>
+       <list></list>
+       <string role="key" value="difficulty"></string>
+       <none></none>
+       <string role="key" value="intendedEndUserRole"></string>
+       <list></list>
+       <string role="key" value="interactivityLevel"></string>
+       <none></none>
+       <string role="key" value="interactivityType"></string>
+       <none></none>
+       <string role="key" value="language"></string>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="valueOf_"></string>
+          <string value="es"></string>
+         </dictionary>
+        </instance>
+       </list>
+       <string role="key" value="learningResourceType"></string>
+       <list></list>
+       <string role="key" value="semanticDensity"></string>
+       <none></none>
+       <string role="key" value="typicalAgeRange"></string>
+       <list></list>
+       <string role="key" value="typicalLearningTime"></string>
+       <none></none>
+      </dictionary>
+     </instance>
+    </list>
     <string role="key" value="general"></string>
     <instance class="exe.engine.lom.lomsubs.generalSub">
      <dictionary>
@@ -595,7 +687,16 @@ text through the text editing buttons associated with the field."></unicode>
       <string role="key" value="keyword"></string>
       <list></list>
       <string role="key" value="language"></string>
-      <list></list>
+      <list>
+       <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+        <dictionary>
+         <string role="key" value="extensiontype_"></string>
+         <none></none>
+         <string role="key" value="valueOf_"></string>
+         <string value="es"></string>
+        </dictionary>
+       </instance>
+      </list>
       <string role="key" value="structure"></string>
       <none></none>
       <string role="key" value="title"></string>
@@ -614,7 +715,14 @@ text through the text editing buttons associated with the field."></unicode>
       <string role="key" value="identifier"></string>
       <list></list>
       <string role="key" value="language"></string>
-      <none></none>
+      <instance class="exe.engine.lom.lomsubs.LanguageIdSub">
+       <dictionary>
+        <string role="key" value="extensiontype_"></string>
+        <none></none>
+        <string role="key" value="valueOf_"></string>
+        <string value="es"></string>
+       </dictionary>
+      </instance>
       <string role="key" value="metadataSchema"></string>
       <list>
        <instance class="exe.engine.lom.lomsubs.metadataSchemaSub">
